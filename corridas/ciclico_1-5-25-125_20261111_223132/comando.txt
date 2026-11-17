@@ -1,0 +1,1 @@
+python worker.py nuevo ciclico --gens 1,5,25,125 --n 5 --e 1-4

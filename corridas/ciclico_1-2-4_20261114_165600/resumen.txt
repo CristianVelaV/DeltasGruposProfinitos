@@ -1,0 +1,55 @@
+comando: python worker.py nuevo ciclico --gens 1,2,4 --n 2 --e 1-6
+
+grupo:       ciclico(2)
+descripcion: n >= 2: grupo ciclico aditivo Z/nZ con la suma modulo n; generadores configurables via build(n, generadores)
+parametro:   2 (entero)
+generadores: 1, 2, 4 (cerrados bajo inversos en el nucleo)
+orden:       2
+delta:       0.0
+diametro:    1
+tiempo:      0.000 s
+
+grupo:       ciclico(4)
+descripcion: n >= 2: grupo ciclico aditivo Z/nZ con la suma modulo n; generadores configurables via build(n, generadores)
+parametro:   4 (entero)
+generadores: 1, 2, 4 (cerrados bajo inversos en el nucleo)
+orden:       4
+delta:       0.0
+diametro:    1
+tiempo:      0.000 s
+
+grupo:       ciclico(8)
+descripcion: n >= 2: grupo ciclico aditivo Z/nZ con la suma modulo n; generadores configurables via build(n, generadores)
+parametro:   8 (entero)
+generadores: 1, 2, 4 (cerrados bajo inversos en el nucleo)
+orden:       8
+delta:       1.0
+diametro:    2
+tiempo:      0.000 s
+
+grupo:       ciclico(16)
+descripcion: n >= 2: grupo ciclico aditivo Z/nZ con la suma modulo n; generadores configurables via build(n, generadores)
+parametro:   16 (entero)
+generadores: 1, 2, 4 (cerrados bajo inversos en el nucleo)
+orden:       16
+delta:       1.0
+diametro:    3
+tiempo:      0.000 s
+
+grupo:       ciclico(32)
+descripcion: n >= 2: grupo ciclico aditivo Z/nZ con la suma modulo n; generadores configurables via build(n, generadores)
+parametro:   32 (entero)
+generadores: 1, 2, 4 (cerrados bajo inversos en el nucleo)
+orden:       32
+delta:       2.0
+diametro:    5
+tiempo:      0.003 s
+
+grupo:       ciclico(64)
+descripcion: n >= 2: grupo ciclico aditivo Z/nZ con la suma modulo n; generadores configurables via build(n, generadores)
+parametro:   64 (entero)
+generadores: 1, 2, 4 (cerrados bajo inversos en el nucleo)
+orden:       64
+delta:       4.0
+diametro:    9
+tiempo:      0.030 s
